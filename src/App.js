@@ -3,17 +3,21 @@ import "./style.css";
 
 class Ak extends Component
 {
+  constructor()
+  { var i=1;
+    super()
+      this.state=
+      {
+        count:i
+      }}
+      inc()
+      {
+      this.setState({count:this.i++})
+      }
+  
   render()
   {
-    return(<div className="ak"><h1> hello sir </h1>
-    <h1>akhi 1</h1>
-    <h2>akhi 2</h2>
-    <h3>akhi 3</h3>
-    <h4>akhi 4</h4>
-    <h5>akhi 5</h5>
-    <h6>akhi 6</h6>
-    
-    </div>);
+    return(<> <h1> {this.state.count} </h1> <button onClick={()=> this.inc()}> increment </button> </>);
   }
 }
 export default Ak;  
