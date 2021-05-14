@@ -3,9 +3,14 @@ h1, p {
 }
 .ak
 {
+  width:800px;
   margin:12px;
   border:2px;
   font-size:6px;
 box-shadow:2px 0px 3px #ccc;
 border:2px solid #ccc;
+}
+#root
+{ -webkit-text-stroke-width: ;
+  display: flex;
 }

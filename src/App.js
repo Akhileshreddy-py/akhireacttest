@@ -1,17 +1,6 @@
 import React,{Component} from "react";
 import "./style.css";
 
-class App extends Component {  
-
-   render() {  
-      return (  
-         <div>  
-            <h2>www.Skyeagle.com</h2>  
-            <p>This websites contains the great CS tutorial.</p>  
-         </div>  
-      );  
-   }  
-}
 class Ak extends Component
 {
   render()
